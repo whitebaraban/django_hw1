@@ -4,12 +4,8 @@ from django.shortcuts import render
 
 
 def index(request):
-    return render(request, 'index.html')
-
-
-def services(request):
-    return render(request, 'services.html')
+    return render(request, 'mainapp/index.html')
 
 
 def contacts(request):
-    return render(request, 'contacts.html')
+    return render(request, 'mainapp/contacts.html')
